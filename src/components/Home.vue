@@ -2,7 +2,7 @@
   <h1>backoffice-home</h1>
   <button @click="count++">count is: {{ count }}</button>
   <p>Edit <code>components/Home.vue</code> to test hot module replacement.</p>
-  <router-link to="/home">Home</router-link>
+  <router-link to="/mf-backoffice-root/home">Home</router-link>
 </template>
 
 <script>

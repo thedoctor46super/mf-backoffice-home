@@ -1,19 +1,19 @@
-import { createRouter, createWebHistory } from 'vue-router';
+//import { createRouter, createWebHistory } from 'vue-router';
 import Home from '/src/components/Home.vue';
 const routes = [
   {
-    path: '/home',
+    path: '/mf-backoffice-root/',
     name: 'Home',
     component: Home,
   },
   {
-    path: '/',
+    path: '/mf-backoffice-root/home',
     name: 'Default',
     component: Home,
   },
 ];
-const router = createRouter({
-  history: createWebHistory(),
+const router = VueRouter.createRouter({
+  history: VueRouter.createWebHistory(),
   routes,
 });
 export default router;
